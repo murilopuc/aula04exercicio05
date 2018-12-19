@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/devdevil/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly idealTree:prePrune devdevil
+22 silly loadIdealTree Finishing
+23 silly currentTree devdevil
+24 silly idealTree devdevil
+25 silly generateActionsToTake Starting
+26 silly install generateActionsToTake
+27 silly generateActionsToTake Finishing
+28 silly diffTrees action count 0
+29 silly decomposeActions action count 0
+30 silly executeActions Starting
+31 silly install executeActions
+32 silly doSerial global-install 0
+33 silly doParallel fetch 0
+34 verbose lock using /home/devdevil/.npm/_locks/staging-e92516031c1f0117.lock for /home/devdevil/node_modules/.staging
+35 verbose unlock done using /home/devdevil/.npm/_locks/staging-e92516031c1f0117.lock for /home/devdevil/node_modules/.staging
+36 silly rollbackFailedOptional Starting
+37 silly rollbackFailedOptional Finishing
+38 silly runTopLevelLifecycles Starting
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 warn enoent ENOENT: no such file or directory, open '/home/devdevil/package.json'
+42 warn devdevil No description
+43 warn devdevil No repository field.
+44 warn devdevil No README data
+45 warn devdevil No license field.
+46 verbose stack Error: EACCES: permission denied, mkdir '/home/devdevil/node_modules/.staging'
+47 verbose cwd /home/devdevil/Área de Trabalho/Razor
+48 error Linux 4.15.0-42-generic
+49 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+50 error node v8.10.0
+51 error npm  v3.5.2
+52 error path /home/devdevil/node_modules/.staging
+53 error code EACCES
+54 error errno -13
+55 error syscall mkdir
+56 error Error: EACCES: permission denied, mkdir '/home/devdevil/node_modules/.staging'
+56 error  { Error: EACCES: permission denied, mkdir '/home/devdevil/node_modules/.staging'
+56 error   errno: -13,
+56 error   code: 'EACCES',
+56 error   syscall: 'mkdir',
+56 error   path: '/home/devdevil/node_modules/.staging' }
+57 error Please try running this command again as root/Administrator.
+58 verbose exit [ -13, true ]
